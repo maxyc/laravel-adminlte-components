@@ -1,9 +1,9 @@
 @section('content')
-<x-dg-card title="Release History" bg="primary">
-    <x-dg-date-range id="picker" init="0" 
+<x-adminlte-card title="Release History" bg="primary">
+    <x-adminlte-date-range id="picker" init="0"
         callback="data_table.ajax.url('{{route('admin.balances.index')}}/?start='+start.format('YYYY-MM-DD') + '&end=' + end.format('YYYY-MM-DD')).load();" />
-    <x-dg-datatable id="data_table" :heads="['#', 'Date', 'Hospital', 'Amount']"/>
-</x-dg-card>
+    <x-adminlte-datatable id="data_table" :heads="['#', 'Date', 'Hospital', 'Amount']"/>
+</x-adminlte-card>
 @stop
 
 @section('js')

@@ -1,7 +1,7 @@
 @section('content')
-<x-dg-card title="Release History" bg="primary">
-    <x-dg-datatable id="data_table" :heads="['#', 'Date', 'Hospital', 'Amount']" :buttons="true"/>
-</x-dg-card>
+<x-adminlte-card title="Release History" bg="primary">
+    <x-adminlte-datatable id="data_table" :heads="['#', 'Date', 'Hospital', 'Amount']" :buttons="true"/>
+</x-adminlte-card>
 @stop
 
 @section('js')
