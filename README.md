@@ -10,6 +10,7 @@
 
 This package contains [Laravel Blade Components](https://laravel.com/docs/8.x/blade#components) for [AdminLTE 3](https://adminlte.io/docs/3.0/) free Boostrap admin panel UI Kit. Since, blade components are only available after Laravel 7, thus only laravel 7.x+ can use this package.
 
+This package is fork from https://github.com/dgvai/laravel-adminlte-components/ . Fixed bugs and updated to php 8
 ## Contents
 
 <!-- TOC -->
