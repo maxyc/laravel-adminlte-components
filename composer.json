@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": "8.*"
+    },
     "autoload": {
         "psr-4": {
             "Maxyc\\AdminLTEComponents\\": "src"
@@ -19,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AdminLTEServiceProvider"
+                "Maxyc\\AdminLTEComponents\\AdminLTEServiceProvider"
             ]
         }
     }
