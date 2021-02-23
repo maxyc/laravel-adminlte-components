@@ -1,0 +1,26 @@
+{
+    "name": "maxyc/laravel-adminlte-components",
+    "description": "Laravel Blade Components For AdminLTE 3 Bootstrap 4 Admin Template",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxyc Webber",
+            "email": "maxycws@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maxyc\\AdminLTEComponents\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdminLTEServiceProvider"
+            ]
+        }
+    }
+}
